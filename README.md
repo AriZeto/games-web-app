@@ -2,13 +2,13 @@
 
 ![Screenshot of the home page](https://i.ibb.co/x38mNHx/Screenshot-2023-08-23-at-12-10-25-Game-App.png)
 
-**Status:** Currently in development. This Readme is subject to change....
+**Status:** Currently in development.
 
 - **Libraries/Frameworks:** Node.js, Express.js, Axios, Mongoose, EJS
 - **Tools/Markup:** RESTful Routing, HTML, CSS
 - **Programming Language:** JavaScript
-- **Database:** MongoDB (NoSQL)
-- **API's:** IGDB/Twitch API
+- **Database:** MongoDB (NoSQL), Mongo Atlas
+- **API's:** IGDB REST API
 
 ## Overview
 
@@ -31,21 +31,16 @@ The application now includes client side, as well as server side validation. Thi
 
 The application currently offers CRUD (Create, Read, Update, Delete) functionality for video games. Users can perform these actions on game entries, and the system stores and retrieves the data effectively.
 
-### User Favorites Feature
-
-Under development is the user favorites feature, allowing users to curate a list of their preferred games. This feature will enhance personalization and engagement within the application.
-
-### Navigation Bar
-
-A work-in-progress navigation bar is being designed to ensure smooth and intuitive user navigation. Expect improvements in the upcoming updates.
+Additionally, users can now leave comments, as well as upload images for a game.
 
 ## To-Do List
 
 Here's a glimpse of what's on the horizon for the Games Web App application:
 
-- Incorporate a powerful search bar for quick game access.
+- Ensure the design is responsive and mobile-friendly.
 - Craft a fully-designed custom template for a polished look.
-- And much more to come as the application evolves!
+- Redesign "show" page for each game, -> Move reviews/comments, embed images properly into each comment.
+- Additional features.
 
 ## Screenshots
 
