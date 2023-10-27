@@ -19,7 +19,6 @@ Welcome to the Games web application, a personal project of mine that aims to cr
 - Browse a vast collection of video games using a user-friendly interface.
 - View detailed game information, screenshots, and trailers.
 - Leave reviews and ratings for your favorite games.
-- Planned: User registration, personalized playlists, and more exciting features!
 
 ## Current Progress
 
