@@ -1,0 +1,85 @@
+<% layout('./layouts/boilerplate') %>
+
+<div class="row">
+    <h1 class="text-center">Edit Game</h1>
+    <div class="col-md-6 offset-md-3">
+        <form action="/games/<%= game._id %>?_method=PUT" method="POST"
+            novalidate class="validation-required">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title: </label>
+                <input class="form-control" type="text" id="title"
+                    name="game[title]" value="<%= game.title %>" required>
+                <div class="valid-feedback">
+                    Looks great!
+                </div>
+                <div class="invalid-feedback">
+                    Please provide a title for the game.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="developer">Developer: </label>
+                <input class="form-control" type="text" id="developer"
+                    name="game[developer]" value="<%= game.developer %>"
+                    required>
+                <div class="valid-feedback">
+                    Looks great!
+                </div>
+                <div class="invalid-feedback">
+                    Please provide a developer for the game.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="year">Year: </label>
+                <input class="form-control" type="number"
+                    step="1" id="year" name="game[year]"
+                    value="<%= game.year %>" required>
+                <div class="valid-feedback">
+                    Looks great!
+                </div>
+                <div class="invalid-feedback">
+                    Please provide a year for the game.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="image">Cover Image URL: </label>
+                <input class="form-control" type="text" id="image"
+                    name="game[cover]" placeholder="Enter in an Image URL..."
+                    value="<%= game.cover %>" required>
+                <div class="valid-feedback">
+                    Looks great!
+                </div>
+                <div class="invalid-feedback">
+                    Please provide an image url for the game.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="storyline">Storyline:
+                </label>
+                <textarea class="form-control" name="game[storyline]"
+                    cols="30" rows="2" id="storyline" required><%=
+                    game.storyline %></textarea>
+                <div class="valid-feedback">
+                    Looks great!
+                </div>
+                <div class="invalid-feedback">
+                    Please provide the storyline for the game.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="summary">Summary:
+                </label>
+                <textarea class="form-control" name="game[summary]"
+                    id="summary" cols="30" rows="3" required><%= game.summary %></textarea>
+                <div class="valid-feedback">
+                    Looks great!
+                </div>
+                <div class="invalid-feedback">
+                    Please provide a summary for the game.
+                </div>
+            </div>
+            <div class="mb-3 d-grid gap-2">
+                <button class="btn btn-outline-success">Update Game</button>
+            </div>
+        </form>
+    </div>
+</div>
