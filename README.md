@@ -1,8 +1,10 @@
 # Games Web Application
 
-![Screenshot of the home page](https://i.ibb.co/x38mNHx/Screenshot-2023-08-23-at-12-10-25-Game-App.png)
+[See the web application here!](https://intense-journey-49547-3965d03e6dee.herokuapp.com/)
 
 **Status:** Currently in development.
+
+![Screenshot of the home page](https://i.ibb.co/x38mNHx/Screenshot-2023-08-23-at-12-10-25-Game-App.png)
 
 - **Libraries/Frameworks:** Node.js, Express.js, Axios, Mongoose, EJS
 - **Tools/Markup:** RESTful Routing, HTML, CSS
