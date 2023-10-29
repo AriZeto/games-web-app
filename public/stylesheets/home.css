@@ -29,6 +29,20 @@ body {
   margin-right: 1rem;
 }
 
+@media screen and (max-width: 767px) {
+  .svgIcons {
+    top: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .icon:nth-child(2) {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 .nav-link {
   padding: 0.25rem 0;
   font-weight: 700;

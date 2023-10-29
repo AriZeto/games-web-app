@@ -2,7 +2,7 @@
 
 [See the web application here!](https://intense-journey-49547-3965d03e6dee.herokuapp.com/)
 
-**Status:** Currently in development.
+**Status:** Currently in development. README and web application subject to change.
 
 ![Screenshot of the home page](https://i.ibb.co/x38mNHx/Screenshot-2023-08-23-at-12-10-25-Game-App.png)
 
