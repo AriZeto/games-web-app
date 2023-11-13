@@ -18,9 +18,9 @@ Welcome to the Games web application, a personal project of mine that aims to cr
 
 ## Features
 
-- Browse a vast collection of video games using a user-friendly interface.
+- Browse a collection of video games using a user-friendly interface.
 - View detailed game information, screenshots, and trailers.
-- Leave reviews and ratings for your favorite games.
+- Leave reviews/comments on your favorite games.
 
 ## Current Progress
 
@@ -36,12 +36,7 @@ Additionally, users can now leave comments, as well as upload images for a game.
 
 ## To-Do List
 
-Here's a glimpse of what's on the horizon for the Games Web App application:
-
-- Ensure the design is responsive and mobile-friendly.
-- Craft a fully-designed custom template for a polished look.
-- Redesign "show" page for each game, -> Move reviews/comments, embed images properly into each comment.
-- Additional features.
+- Port React.js, replacing EJS.
 
 ## Screenshots
 
